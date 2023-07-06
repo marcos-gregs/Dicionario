@@ -1,0 +1,455 @@
+.ContentInput{
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--inner-bg-color);
+    height: 8vh;
+    position: relative;
+    color: rgb(14, 14, 15);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ContentInput>i{
+    font-size: 32px;
+
+    color: var(--logo-color);
+}
+.InputLetter{
+    width: 70%;
+    height: 4vh;
+   margin-left: 5%;
+}
+.Moon{
+  
+    width: 1vw;
+    height: 1vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../../../../public/icon-moon.svg');
+}
+.Sun{
+    
+    width: 1vw;
+    height: 1vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../../../../public/icon-sun.svg');
+  
+}
+.BtnClick{
+    position: relative;
+    right: 8%;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+.DashboardDic{
+    margin: 2% auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.ContentMain{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    align-items: center;
+    background-color: var(--inner-bg-color);
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 3%;
+    border-radius: 8px;
+}
+.MainStructur{
+    display: grid;
+    margin-top: 2%;
+    grid-gap: 1%;
+    grid-template-areas: 
+        "header sidebar"
+        "main sidebar";
+}
+.partOfSpeech{
+    grid-area: header;
+    width: 30vw;
+    min-height: 4vh;
+    max-height: 14vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--inner-bg-color);
+    border-radius: 8px;
+    padding-left: 2%;
+    padding-right: 3%;
+}
+
+.LineContet{
+    width: 80%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    background-color: var(--body-bg-color);
+    clip-path: polygon(0 99%, 100% 99%, 100% 100%, 0 100%);
+    
+
+}
+.DivDefinition{
+    width: 38vw;
+    min-height: 10vh;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    border-radius: 8px;
+    align-items: center;
+    background-color: var(--inner-bg-color);
+    grid-area: sidebar;
+}
+.DivSyAny{
+    grid-area: main;
+    top: 10%;
+    position: relative;
+}
+.Section-Antonyms{
+    background-color: var(--inner-bg-color);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+    border-radius: 8px;
+}
+.Section-Synonyms{
+    background-color: var(--inner-bg-color);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+    border-radius: 8px;
+}
+@media screen and (min-width:425px) and (max-width:765px){
+    .ContentInput{
+        max-width: 100%;
+      
+    }
+    .ContentInput>i{
+        font-size: 18px;
+        color: var(--logo-color);
+    }
+    .InputLetter{
+        width: 65vw;
+        height: 4vh;
+        margin-left: 10%;
+    }
+    .Moon{
+        width: 10vw;
+        height: 10vw;
+    }
+    .Sun{
+        width: 10vw;
+        height: 10vw;
+      
+    }
+    .BtnClick{
+       
+        right: 10%;
+     
+    }
+
+    .ContentMain{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    .SongDisplay{
+        width: 40vw;
+    }
+    .SongDisplay > audio{
+      width: 100%;
+    }
+    .MainStructur{
+     display: flex;
+     flex-direction: column;
+        
+    }
+    .partOfSpeech{
+     
+        width: 70vw;
+        min-height: 4vh;
+        max-height: 14vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 2%;
+        background-color: var(--inner-bg-color);
+        border-radius: 8px;
+        padding-left: 2%;
+        padding-right: 3%;
+    }
+    
+    .LineContet{
+        width: 80%;
+        margin-left: 2%;
+        margin-bottom: 3%;
+        background-color: var(--body-bg-color);
+        clip-path: polygon(0 99%, 100% 99%, 100% 100%, 0 100%);
+        
+    
+    }
+    .DivDefinition{
+        width: 70vw;
+        min-height: 10vh;
+        padding-top: 1%;
+        padding-left: 2%;
+        padding-bottom: 2%;
+        border-radius: 8px;
+        align-items: center;
+        background-color: var(--inner-bg-color);
+        margin-bottom: 2%;
+    }
+    .DivSyAny{
+        grid-area: main;
+        top: 10%;
+        position: relative;
+    }
+    .Section-Antonyms{
+        background-color: var(--inner-bg-color);
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        align-items: center;
+        border-radius: 8px;
+    }
+    .Section-Synonyms{
+        background-color: var(--inner-bg-color);
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        align-items: center;
+        border-radius: 8px;
+    }
+}
+@media screen and (min-width:375px) and (max-width:425px){
+    .ContentInput{
+        max-width: 100%;
+      
+    }
+    .ContentInput>i{
+        font-size: 18px;
+        color: var(--logo-color);
+    }
+    .InputLetter{
+        width: 65vw;
+        height: 4vh;
+        margin-left: 10%;
+    }
+    .Moon{
+        width: 10vw;
+        height: 10vw;
+    }
+    .Sun{
+        width: 10vw;
+        height: 10vw;
+      
+    }
+    .BtnClick{
+       
+        right: 10%;
+     
+    }
+
+    .ContentMain{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    .SongDisplay{
+        width: 40vw;
+    }
+    .SongDisplay > audio{
+      width: 100%;
+    }
+    .MainStructur{
+     display: flex;
+     flex-direction: column;
+        
+    }
+    .partOfSpeech{
+     
+        width: 70vw;
+        min-height: 4vh;
+        max-height: 14vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 2%;
+        background-color: var(--inner-bg-color);
+        border-radius: 8px;
+        padding-left: 2%;
+        padding-right: 3%;
+    }
+    
+    .LineContet{
+        width: 80%;
+        margin-left: 2%;
+        margin-bottom: 3%;
+        background-color: var(--body-bg-color);
+        clip-path: polygon(0 99%, 100% 99%, 100% 100%, 0 100%);
+        
+    
+    }
+    .DivDefinition{
+        width: 70vw;
+        min-height: 10vh;
+        padding-top: 1%;
+        padding-left: 2%;
+        padding-bottom: 2%;
+        border-radius: 8px;
+        align-items: center;
+        background-color: var(--inner-bg-color);
+        margin-bottom: 2%;
+    }
+    .DivSyAny{
+        grid-area: main;
+        top: 10%;
+        position: relative;
+    }
+    .Section-Antonyms{
+        background-color: var(--inner-bg-color);
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        align-items: center;
+        border-radius: 8px;
+    }
+    .Section-Synonyms{
+        background-color: var(--inner-bg-color);
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        align-items: center;
+        border-radius: 8px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:375px) {
+    .ContentInput{
+        max-width: 100%;
+      
+    }
+    .ContentInput>i{
+        font-size: 18px;
+        color: var(--logo-color);
+    }
+    .InputLetter{
+        width: 65vw;
+        height: 4vh;
+        margin-left: 10%;
+    }
+    .Moon{
+        width: 10vw;
+        height: 10vw;
+    }
+    .Sun{
+        width: 10vw;
+        height: 10vw;
+      
+    }
+    .BtnClick{
+       
+        right: 10%;
+     
+    }
+
+    .ContentMain{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    .SongDisplay{
+        width: 40vw;
+    }
+    .SongDisplay > audio{
+      width: 100%;
+    }
+    .MainStructur{
+     display: flex;
+     flex-direction: column;
+        
+    }
+    .partOfSpeech{
+     
+        width: 70vw;
+        min-height: 4vh;
+        max-height: 14vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 2%;
+        background-color: var(--inner-bg-color);
+        border-radius: 8px;
+        padding-left: 2%;
+        padding-right: 3%;
+    }
+    
+    .LineContet{
+        width: 80%;
+        margin-left: 2%;
+        margin-bottom: 3%;
+        background-color: var(--body-bg-color);
+        clip-path: polygon(0 99%, 100% 99%, 100% 100%, 0 100%);
+        
+    
+    }
+    .DivDefinition{
+        width: 70vw;
+        min-height: 10vh;
+        padding-top: 1%;
+        padding-left: 2%;
+        padding-bottom: 2%;
+        border-radius: 8px;
+        align-items: center;
+        background-color: var(--inner-bg-color);
+        margin-bottom: 2%;
+    }
+    .DivSyAny{
+        grid-area: main;
+        top: 10%;
+        position: relative;
+    }
+    .Section-Antonyms{
+        background-color: var(--inner-bg-color);
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        align-items: center;
+        border-radius: 8px;
+    }
+    .Section-Synonyms{
+        background-color: var(--inner-bg-color);
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        align-items: center;
+        border-radius: 8px;
+    }
+}
