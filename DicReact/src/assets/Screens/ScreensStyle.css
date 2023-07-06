@@ -143,20 +143,20 @@ ul{
     }
     .InputLetter{
         width: 65vw;
-        height: 4vh;
+        height: 5vh;
         margin-left: 10%;
     }
     .Moon{
         width: 10vw;
-        height: 10vw;
+        height: 5vh;
     }
     .Sun{
         width: 10vw;
-        height: 10vw;
+        height: 5vh;
       
     }
     .BtnClick{
-       
+       font-size: 15px;
         right: 10%;
      
     }
@@ -263,7 +263,7 @@ ul{
       
     }
     .BtnClick{
-       
+        font-size: 15px;
         right: 10%;
      
     }
@@ -362,15 +362,15 @@ ul{
     }
     .Moon{
         width: 10vw;
-        height: 10vw;
+        height: 5vh;
     }
     .Sun{
         width: 10vw;
-        height: 10vw;
+        height: 5vh;
       
     }
     .BtnClick{
-       
+        font-size: 10px;
         right: 10%;
      
     }
