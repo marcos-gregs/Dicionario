@@ -25,7 +25,7 @@
     height: 1vw;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../../../../public/icon-moon.svg');
+    background-image: url('../../../public/icon-moon.svg');
 }
 .Sun{
     
@@ -33,7 +33,7 @@
     height: 1vw;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../../../../public/icon-sun.svg');
+    background-image: url('../../../public/icon-sun.svg');
   
 }
 .BtnClick{
