@@ -132,13 +132,33 @@ ul{
     align-items: center;
     border-radius: 8px;
 }
-@media screen and (min-width:425px) and (max-width:765px){
+@media screen and (min-width:1024px) and (max-width:1400px){
+    .BtnClick{
+        font-size: 15px;
+         right: 8%;
+      
+     }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+
+    .Moon{
+        width: 10vw;
+        height: 5vh;
+    }
+    .Sun{
+        width: 10vw;
+        height: 5vh;
+      
+    }
+
+}
+@media screen and (min-width:425px) and (max-width:768px){
     .ContentInput{
         max-width: 100%;
       
     }
     .ContentInput>i{
-        font-size: 18px;
+        font-size: 30px;
         color: var(--logo-color);
     }
     .InputLetter{
@@ -245,7 +265,7 @@ ul{
       
     }
     .ContentInput>i{
-        font-size: 18px;
+        font-size: 30px;
         color: var(--logo-color);
     }
     .InputLetter{
@@ -352,7 +372,7 @@ ul{
       
     }
     .ContentInput>i{
-        font-size: 18px;
+        font-size: 30px;
         color: var(--logo-color);
     }
     .InputLetter{

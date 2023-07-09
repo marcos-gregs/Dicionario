@@ -18,6 +18,7 @@
 --secondry-heading-color: #fff;
 }
 body{
+  
   background-color: var(--body-bg-color);
   color: var(--body-bg-color);
 }

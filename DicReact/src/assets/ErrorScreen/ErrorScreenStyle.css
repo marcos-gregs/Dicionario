@@ -1,0 +1,38 @@
+#erro-page{
+    width: 30vw;
+    height: 20vh;
+    background-color: var(--inner-bg-color);
+    color: var(--logo-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 35%;
+    border-radius: 8px;
+
+}
+
+.btn-erro{
+    margin-top: 4vh;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  
+    #erro-page{
+        width: 80%;
+        height: 30vh;
+        margin-left: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+
+    
+    }
+    
+    .btn-erro{
+        margin-top: 4vh;
+    }
+}
