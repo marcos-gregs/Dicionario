@@ -5,7 +5,7 @@ import './ErrorScreenStyle.css'
 export const ErroScreen = () =>{
     const error = useRouteError()
     console.log(error)
-    const [ClassIcon,setClassIcon] = useState('Moon')
+    const [ClassIcon,setClassIcon] = useState('Sun')
     const DarkMode = ()=>{
         if(ClassIcon ==='Moon'){
             setClassIcon('Sun')
